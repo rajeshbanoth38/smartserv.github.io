@@ -1,0 +1,38 @@
+        html,
+        body {
+            height: 100%;
+        }
+
+        .container {
+            height: 100%;
+            display: flex;
+            width: 47%;
+            justify-content: center;
+            align-items: center;
+        }
+        .containerinner{
+            display: flex;
+            width: 27em;
+            height: 20em;
+            justify-content: center;
+            border-radius: 5%;
+            align-items: center;
+
+        }
+        .but{
+            background: #71BE58;
+            color: white;
+        }
+        .containerinner { 
+            height: 75%;
+            position: relative;
+            margin: 0;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+        }
+        .bordercorner{
+            border-left: 0.7em solid #71BE58;
+          }
